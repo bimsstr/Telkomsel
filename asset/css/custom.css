@@ -1,0 +1,1160 @@
+/*
+*  theme overwrite 
+=================================
+=================================
+=================================*/
+/**! ----- font family ---- **/
+body {
+  /*font-family: "Aileron", sans-serif, "Aileron", sans-serif;*/
+  font-family: 'Quicksand', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  /*font-family: "Aileron", sans-serif;*/
+  font-family: 'Quicksand', sans-serif;
+}
+
+.blockquote {
+  font-family: "Noto Serif", serif;
+}
+
+.newFont{
+  font-family: 'Monda', sans-serif;
+}
+
+.newFont2{
+ font-family: 'Quicksand', sans-serif;
+}
+
+.newFont3{
+  font-family : 'Arial';
+}
+
+/**! ----- colors ---- **/
+.bg-color-primary, .btn--bg-primary, .navbar-sticky--on .btn, .btn--bg-grey:hover, .btn--outline:hover, .btn--outline-thick:hover, .btn-border-hover.btn--color-white:before, .card--focused, .card--outline:hover, .card--outline:focus, .social-lists li a:hover, .media-player-icon--fill-primary, .oval, .slick-active .slick-dots--long, .pagination .page-item.active .page-link {
+  background: #2f5bea;
+}
+
+.color-primary, .hero-content .btn:hover .media-player-icon--fill-grey, .btn--bg-white:hover, .btn--color-primary, .btn--color-primary:hover, .btn--color-dark.btn-text-hover:hover, .btn--outline.btn--color-primary, .btn--outline-thick.btn--color-primary, .btn-text-hover:hover, .card--focused .btn__text, .lang-selector .lang-dropdown__item:focus, .lang-selector .lang-dropdown__item:hover, .icon-rounded .icon, .media-player-icon--fill-grey:hover, .btn:hover .media-player-icon--fill-grey i, .pagination .page-item .page-link:hover, .dropdown-item:focus, .dropdown-item:hover, .dropdown-item.active, .dropdown-item:active, .features--slider-2 .slick-arrow:hover i, .footer-widget ul li a:hover, .footer .nav li a:hover {
+  color: #2f5bea;
+}
+
+.features .swipe-tab.active-tab .swipe-tab__inner {
+  -webkit-box-shadow: 0px 2px 0px #2f5bea;
+  box-shadow: 0px 2px 0px #2f5bea;
+}
+
+.border-primary, .hr--blod, .btn--color-primary, .btn--color-dark.btn-text-hover:hover, .btn--outline:hover, .btn--outline-thick:hover, .btn-text-hover:hover {
+  border-color: #2f5bea;
+}
+.bg-fill-primary {
+  fill: #2f5bea;
+}
+
+/*! Place your custom styles here (below). 
+      This will make it much easier to update the template later - you'll only need to preserve "this file
+      ===================================================================================================
+*/
+/*Button Red*/
+.btn-Red{
+  background: #e60000;
+}
+
+.theme-primary .btn-Red, .theme-primary .navbar-sticky--on .btn {
+  background: #e60000;
+} /*Theme Primary*/
+
+.theme-primary .navbar-sticky--on .btn:hover, .theme-primary .navbar .btn--outline:hover{
+  background: red;
+} /*Theme Primary*/
+
+.theme-green .btn-Red, .theme-green .navbar-sticky--on .btn {
+  background: #e60000;
+} /*Theme Green*/
+
+.theme-green .navbar-sticky--on .btn:hover, .theme-green .navbar .btn--outline:hover{
+  background: red;
+} /*Theme Green*/
+
+.theme-violet .btn-Red, .theme-violet .navbar-sticky--on .btn {
+  background: #e60000;
+} /*Theme Violet*/
+
+.theme-violet .navbar-sticky--on .btn:hover, .theme-violet .navbar .btn--outline:hover{
+  background: red;
+} /*Theme Violet*/
+
+.theme-firoza .btn-Red, .theme-firoza .navbar-sticky--on .btn {
+  background: #e60000;
+} /*Theme Firoza*/
+
+.theme-firoza .navbar-sticky--on .btn:hover, .theme-firoza .navbar .btn--outline:hover{
+  background: red;
+} /*Theme Firoza*/
+
+.theme-red .btn-Red, .theme-red .navbar-sticky--on .btn {
+  background: #e60000;
+} /*Theme Red*/
+
+.theme-red .navbar-sticky--on .btn:hover, .theme-red .navbar .btn--outline:hover{
+  background: red;
+} /*Theme Red*/
+
+.theme-orange .btn-Red, .theme-orange .navbar-sticky--on .btn {
+  background: #e60000;
+} /*Theme Orange*/
+
+.theme-orange .navbar-sticky--on .btn:hover, .theme-orange .navbar .btn--outline:hover{
+  background: red;
+} /*Theme Orange*/
+
+.gradient-1 .btn-Red, .gradient-1 .navbar-sticky--on .btn {
+  background: #e60000;
+} /*Gradient-1*/
+
+.gradient-1 .navbar-sticky--on .btn:hover, .gradient-1 .navbar .btn--outline:hover{
+  background: red;
+} /*Gradient-1*/
+
+.gradient-2 .btn-Red, .gradient-2 .navbar-sticky--on .btn {
+  background: #e60000;
+} /*Gradient-2*/
+
+.gradient-2 .navbar-sticky--on .btn:hover, .gradient-2 .navbar .btn--outline:hover{
+  background: red;
+} /*Gradient-2*/
+
+.gradient-3 .btn-Red, .gradient-3 .navbar-sticky--on .btn {
+  background: #e60000;
+} /*Gradient-3*/
+
+.gradient-3 .navbar-sticky--on .btn:hover, .gradient-3 .navbar .btn--outline:hover{
+  background: red;
+} /*Gradient-3*/
+
+.gradient-4 .btn-Red, .gradient-4 .navbar-sticky--on .btn {
+  background: #e60000;
+} /*Gradient-4*/
+
+.gradient-4 .navbar-sticky--on .btn:hover, .gradient-4 .navbar .btn--outline:hover{
+  background: red;
+} /*Gradient-4*/
+
+.gradient-5 .btn-Red, .gradient-5 .navbar-sticky--on .btn {
+  background: #e60000;
+} /*Gradient-5*/
+
+.gradient-5 .navbar-sticky--on .btn:hover, .gradient-5 .navbar .btn--outline:hover{
+  background: red;
+} /*Gradient-5*/
+
+.gradient-6 .btn-Red, .gradient-6 .navbar-sticky--on .btn {
+  background: #e60000;
+} /*Gradient-6*/
+
+.gradient-6 .navbar-sticky--on .btn:hover, .gradient-6 .navbar .btn--outline:hover{
+  background: red;
+} /*Gradient-6*/
+
+.btn-White{
+  background: #ffffff;
+}
+
+.theme-primary .btn-White, .theme-green .btn-White, .theme-violet .btn-White, .theme-firoza .btn_White, .theme-orange .btn-White, 
+.theme-red .btn-White {
+  background: #ffffff;
+}
+
+.hero__title_cust {
+  margin-bottom: 1.3rem;
+  font-weight: 200;
+  line-height: 2;
+}
+
+.img_center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.space-navbar {
+  padding-bottom: 5.3rem;
+}
+
+.space-headline {
+  padding-top: 0.5rem;
+  padding-bottom: 0.3rem;
+}
+
+.color-gray{
+  background-color: #F0F0F0;
+}
+
+.middle{
+  vertical-align: middle;
+}
+
+.center{
+  align-items: center;
+  align-content: center;
+  text-align: center;
+}
+
+.font-12{
+  font-size: 12px;
+}
+
+.theme-primary .h6-test:hover{
+  color : #2f5bea;
+}
+.theme-green .h6-test:hover{
+  color : #27ae60;
+}
+.theme-violet .h6-test:hover{
+  color : #9b59b6;
+}
+.theme-firoza .h6-test:hover{
+  color : #16a085;
+}
+.theme-red .h6-test:hover{
+  color : #ED3325;
+}
+.theme-orange .h6-test:hover{
+  color : #ee8663;
+}
+.gradient-1 .h6-test:hover{
+  color : #5179ec;
+}
+.gradient-2 .h6-test:hover{
+  color : #2f5bea;
+}
+.gradient-3 .h6-test:hover{
+  color : #3A6CC5;
+}
+.gradient-4 .h6-test:hover{
+  color : #a6546e;
+}
+.gradient-5 .h6-test:hover{
+  color : #2A7871;
+}
+.gradient-6 .h6-test:hover{
+  color : #9b59b6;
+}
+
+.container_new{
+  width: 500px;
+  height: 500px
+}
+
+.my-wrapper {
+  margin-right: 4%; /* 1 */
+  margin-left: 4%; /* 1 */
+
+  width: 92%; /* 2 */
+  height: 92%; /* 2 */
+
+  padding-right: 50px; /* 3 */
+  padding-left:  50px; /* 3 */
+}
+
+.my-wrapper2 {
+  margin-right: 4%; /* 1 */
+  margin-left: 4%; /* 1 */
+
+  width: 80%; /* 2 */
+
+  padding-right: 50px; /* 3 */
+  padding-left:  50px; /* 3 */
+}
+
+.my-wrapper3{
+  margin-right: 0%; /* 1 */
+  margin-left: 0%; /* 1 */
+
+  padding-right: 50px; /* 3 */
+  padding-left:  50px; /* 3 */
+}
+
+.my-wrapper-2 {
+  margin-right: 4%; /* 1 */
+  margin-left: 4%; /* 1 */
+
+  width: 92%; /* 2 */
+  height : 30rem;
+
+  padding-right: 50px; /* 3 */
+  padding-left:  50px; /* 3 */
+  padding-top:100px;
+  padding-bottom:100px;
+}
+
+.bg-white{
+  background-color: white;
+}
+
+.my-border-bottom{
+  border-bottom: 1px solid #C9C9C9;
+}
+
+.my-border-top{
+  border-top: : 1px solid #C9C9C9;
+}
+
+.my-space-bottom {
+  padding-bottom: 1rem;
+}
+
+.my-space-bottom-big {
+  padding-bottom: 100rem;
+}
+
+.my-space-bottom-mid {
+  padding-bottom: 30rem;
+}
+
+.my-space-bottom-sm-5 {
+  padding-bottom: 1rem;
+}
+.my-space-top{
+  padding-top: 3rem;
+}
+.my-space-top-1{
+  padding-top: 1.5rem;
+}
+
+.my-space-top-2{
+  padding-top: 0.5rem;
+}
+
+.theme-primary .my-btn-color{
+  background: #2f5bea;
+}
+.theme-green .my-btn-color{
+  background: #27ae60;
+}
+.theme-violet .my-btn-color{
+  background: #9b59b6;
+}
+.theme-firoza .my-btn-color{
+  background: #16a085;
+}
+.theme-red .my-btn-color{
+  background: #e74c3c;
+}
+.theme-orange .my-btn-color{
+  background: #ee8663;
+}
+.gradient-1 .my-btn-color{
+  background: #5179ec;
+}
+.gradient-2 .my-btn-color{
+  background: #2f5bea;
+}
+.gradient-3 .my-btn-color{
+  background: #3A6CC5;
+}
+.gradient-4 .my-btn-color{
+  background: #a6546e;
+}
+.gradient-5 .my-btn-color{
+  background: #2A7871;
+}
+.gradient-6 .my-btn-color{
+  background: #9b59b6;
+}
+.my-text-white{
+  color: #ffffff
+}
+
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600&subset=latin-ext");
+* {
+  box-sizing: border-box;
+}
+ 
+html, body {
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+}
+ 
+@media screen and (max-width: 768px) {
+  html, body {
+    font-size: 12px;
+  }
+}
+
+.container-pop-up {
+  background-color: #47BDFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+ 
+.button {
+  text-decoration: none;
+  font-size: .875rem;
+  text-transform: uppercase;
+  display: inline-block;
+  border-radius: 1.5rem;
+  background-color: #fff;
+  color: #47BDFF;
+  padding: 1rem 2rem;
+  font-weight: 900;
+}
+ 
+.popup {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 2;
+  visibility: hidden;
+  opacity: 0;
+  overflow: hidden;
+  transition: .64s ease-in-out;
+}
+.popup-inner {
+  position: relative;
+  bottom: -100vw;
+  right: -100vh;
+  display: flex;
+  align-items: center;
+  max-width: 1200px;
+  max-height: 600px;
+  width: 90%;
+  height: 100%;
+  background-color: #fff;
+  transform: rotate(32deg);
+  transition: .64s ease-in-out;
+}
+.popupphoto {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  width: 40%;
+  height: 100%;
+  overflow: hidden;
+}
+.popupphoto img {
+  width: auto;
+  height: 100%;
+}
+.popuptext {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 60%;
+  height: 100%;
+  padding: 4rem;
+}
+.popuptext h1 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+  color: #0A0A0A;
+}
+.popuptext p {
+  font-size: .875rem;
+  color: #686868;
+  line-height: 1.5;
+}
+ 
+.popuptext a {
+  text-decoration: none;
+  color:  #47BDFF;
+}
+.popup:target {
+  visibility: visible;
+  opacity: 1;
+}
+.popup:target .popup-inner {
+  bottom: 0;
+  right: 0;
+  transform: rotate(0);
+}
+.closepopup {
+  position: absolute;
+  right: -1rem;
+  top: -1rem;
+  width: 3rem;
+  height: 3rem;
+  font-size: .875rem;
+  font-weight: 300;
+  border-radius: 100%;
+  background-color: #47BDFF;
+  z-index: 4;
+  color: #fff;
+  line-height: 3rem;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.color_red{
+  color: red;
+}
+
+.pt-5 {
+  padding-top: 10rem;
+}
+.pb-5 {
+ padding-bottom: 10rem;
+}
+.icon .color-primary{
+  color: #2f5bea;
+}
+
+
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: white;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+/*----------------------------------------*/
+/*  3. Slider Area
+/*----------------------------------------*/
+.nivo-directionNav {opacity: 0; transition: all 0.3s ease-in 0s}
+.slider-area:hover .nivo-directionNav {opacity: 1}
+.banner-content {height: 100%; position: relative}
+.slider-area .text-content {
+    margin-top: 20.2%;
+    max-width: 80%;
+    position: absolute;
+    right: 15px;
+    text-align: right;
+    top: 0;
+}
+.banner-content h1, .banner-content h2, .banner-content h3 {text-transform: uppercase}
+.banner-content h1 {
+    animation: 1500ms ease-in-out 0s normal none 1 running bounceInLeft;
+    font-size: 72px;
+    font-weight: 900;
+    margin-bottom: 14px;
+    text-shadow: 0 5px 5px rgba(216, 216, 216, 0.75);
+    text-transform: uppercase;
+}
+.banner-content h2 {
+    animation: 2000ms ease-in-out 0s normal none 1 running bounceInLeft;
+    font-size: 24px;
+    font-weight: 300;
+    margin-bottom: 6px;
+}
+.banner-content h2 span {font-weight: 700;color: antiquewhite;}
+.banner-content h3 {
+    animation: 2500ms ease-in-out 0s normal none 1 running bounceInLeft;
+    font-size: 20px;
+    line-height: 1.8;
+    margin-bottom: 10px;
+    text-transform: none;
+}
+.banner-content .banner-readmore {
+    animation: 3000ms ease-in-out 0s normal none 1 running bounceInLeft;
+    clear: both;
+    display: inline-block;
+    line-height: 41px;
+}
+form#banner-searchbox {margin-top: 52px; width: 673px}
+.adventure-cat, .blog-archive {
+    background: rgba(0, 0, 0, 0) url("../../asset/images/icon/select-bg-one.png") no-repeat scroll 0 0;
+    cursor: pointer;
+    float: left;
+    height: 46px;
+    line-height: 46px;
+    padding: 0;
+    text-transform: capitalize;
+    width: 172px;
+}
+.adventure-cat.destination {
+    background: rgba(0, 0, 0, 0) url("../../asset/images/icon/select-bg-two.png") no-repeat scroll 0 0;
+    margin-left: 30px;
+    width: 269px;
+}
+.search-adventure, .blog-archive .archive {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background: rgba(0, 0, 0, 0) none no-repeat scroll 0 0;
+    border: 0 none;
+    border-radius: 0;
+    color: #ffffff;
+    cursor: pointer;
+    height: 44px;
+    line-height: 44px;
+    outline: medium none;
+    overflow: hidden;
+    padding: 0 10px;
+    transition-duration: 0.4s;
+    transition-property: height;
+    width: 100%;
+    z-index: 9999;
+}
+.search-adventure option, .archive option {
+    background: #ffffff none repeat scroll 0 0;
+    color: #000000;
+    line-height: 22px;
+    padding: 4px 15px;
+}
+button#btn-search-category, .newsletter-content button {
+    background: #000000 none repeat scroll 0 0;
+    border: 0 none;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 45px;
+    padding: 0 47px;
+    margin-top: 30px;
+    transition: all 0.3s ease 0s
+}
+button#btn-search-category:hover, .newsletter-content button:hover, .button-one:hover {
+    background: rgba(0, 0, 0, 0.5) none no-repeat scroll 0 0;
+    color: #ffffff;
+}
+.slider-area .preview-form {
+    width: 100%;
+    position: absolute;
+    top: 500px;
+    right: 0;
+    z-index: 98;
+}
+.slider-area .preview-form .forms {
+    width: auto;
+    position: relative;
+    float: right;
+    text-align: center;
+}
+/*----------------------------------------*/
+/*  15. Home Two Start
+/*----------------------------------------*/
+/*----------------------------------------*/
+/*  15.1 Home Two Slider
+/*----------------------------------------*/
+.slider-area.home-two-slider .text-content {margin-top: 24%}
+.home-two-slider .banner-content h1 {
+    font-size: 70px;
+    line-height: 70px;
+    margin: 0;
+    text-shadow: none;
+}
+.home-two-slider .banner-content h1.title2 {margin-bottom: 22px}
+.home-two-slider .banner-content h2.sub-title span {color: #ffae00}
+.home-two-slider .adventure-cat {
+    background: rgba(0, 0, 0, 0) url("../../asset/images/icon/home-two-select-bg-one.png") no-repeat scroll 0 0;
+}
+.home-two-slider .adventure-cat.destination {
+    background: rgba(0, 0, 0, 0) url("../../asset/images/icon/home-two-select-bg-two.png") no-repeat scroll 0 0;
+}
+.button-yellow {background: #ffae00 none repeat scroll 0 0 !important}
+.button-yellow:hover {background: rgba(255, 174, 0, 0.8) none repeat scroll 0 0 !important}
+/*----------------------------------------*/
+/*  15.2 Service About Area
+/*----------------------------------------*/
+.service-about-area {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url("../../asset/images/banner/7.jpg");
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: 49% 100%;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+.service-item {margin-top: 84px}
+.item-image {height: 50px; margin-bottom: 10px}
+.service-item > h4 {font-size: 13px; text-transform: uppercase}
+.single-service-two {padding-top: 60px}
+/*----------------------------------------*/
+/*  15.3 Home Two Portfolio Area
+/*----------------------------------------*/
+/*.portfolio-two .single-portfolio:hover .portfolio-text::after,*/ .team-two .single-member:hover .member-text.effect-bottom::after {
+    background: rgba(255, 174, 0, 0.9) none repeat scroll 0 0;
+}
+/*----------------------------------------*/
+/*  15.4 Home Two Fun Factor Area
+/*----------------------------------------*/
+.fun-factor-two.fun-factor-area {
+    background: rgba(0, 0, 0, 0) url("../../asset/images/banner/8.jpg") no-repeat scroll center top / cover ;
+    padding-bottom: 202px;
+    padding-top: 120px;
+}
+.fun-factor-two.fun-factor-area::before {background: rgba(0, 0, 0, 0.4) none repeat scroll 0 0}
+.fun-factor-area.fun-factor-two::after {
+    background: rgba(0, 0, 0, 0) url("../../asset/images/banner/transparent-2.png") no-repeat scroll center top / cover ;
+    bottom: 0;
+    transform: rotate(0deg);
+}
+.fun-factor-two .section-title.title-two .title-border::after, .newsletter-two .section-title.title-two .title-border::after {
+    background: rgba(0, 0, 0, 0) url("../../asset/images/icon/title2-icon-2.png") no-repeat scroll 0 0;
+}
+.fun-factor-two .section-title h1::before, .fun-factor-two .section-title h1::after, .newsletter-two .section-title h1::before, .newsletter-two .section-title h1::after {
+    background: #fff none repeat scroll 0 0;
+}
+.fun-factor-two .single-fun-factor::before {
+    border-color: rgba(0, 0, 0, 0.5) rgba(0, 0, 0, 0.5) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
+}
+.fun-factor-two .single-fun-factor::after {
+    border-color: rgba(0, 0, 0, 0.5) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0.5);
+    border-width: 5px 43px;
+}
+.fun-factor-two .fun-border-left::after {bottom: -47px; transform: rotate(97deg)}
+.fun-factor-two .fun-border-right::after {
+    bottom: -47px;
+    transform: rotate(83deg);
+}
+.fun-factor-two .single-fun-factor:hover::after, .fun-factor-two .single-fun-factor:hover::before, .fun-factor-two .single-fun-factor:hover .fun-border-left::after, .fun-factor-two .single-fun-factor:hover .fun-border-right::after {
+    display: none
+}
+/*.fun-factor-two .single-fun-factor:hover::before {border-color: #000000 #000000 rgba(0, 0, 0, 0) rgba(0, 0, 0, 0)}*/
+.fun-factor-two .single-fun-factor {height: 171px}
+.fun-factor-area .title-two .title-border::after, .partner-area .title-two .title-border::after, .service-about-area .section-title.title-two .title-border::after {
+    bottom: 0;
+}
+/*----------------------------------------*/
+/*  15.5 Home Two Best Sell Area
+/*----------------------------------------*/
+.best-sell-two .title-container h3, .best-sell-two .sell-text-container > p, .best-sell-three .title-container h3, .best-sell-three .sell-text-container > p {
+    color: #2f2f2f;
+}
+.best-sell-two .carousel-style-one .owl-controls .owl-buttons div:hover::after {border-color: #ffae00}
+.best-sell-two .carousel-style-one .owl-controls .owl-buttons div:hover i {color: #ffae00;}
+.newsletter-area.newsletter-two {
+    background: #edecec url("../../asset/images/banner/10.jpg") no-repeat scroll center top / cover ;
+    padding-bottom: 188px;
+}
+.newsletter-area.newsletter-two::before {background: rgba(0, 0, 0, 0.4) none repeat scroll 0 0}
+.newsletter-area.newsletter-two::after {
+    background: rgba(0, 0, 0, 0) url("../../asset/images/banner/transparent-2-gray.png") no-repeat scroll center top / cover ;
+}
+.best-sell-two .best-sell-slider .box-hover > a span::after {width: 100%}
+.best-sell-two .best-sell-slider .box-hover > a span {
+    padding: 0 22px 0 9px;
+    width: auto;
+}
+/*----------------------------------------*/
+/*  15.6 Home Two Blog Area
+/*----------------------------------------*/
+.blog-two-area .date-time .date, .blog-two-area .date-time .date::after, .single-blog-post-img .date-time .date, .single-blog-post-img .date-time .date::after {
+    background: #ffae00 none repeat scroll 0 0;
+    color: #ffffff;
+}
+.blog-area.blog-two-area, .blog-area.blog-three-area {padding-top: 100px}
+.blog-two-area .blog-text::after, .blog-three-area .blog-text::after {display: none}
+.blog-two-area .blog-text, .blog-three-area .blog-text {
+    margin: -28px -50px 0 0;
+    padding: 26px 16px 13px 15px;
+}
+.blog-two-area .blog-link, .blog-three-area .blog-link {
+    margin-bottom: 4px;
+    margin-top: 22px;
+    text-align: left;
+}
+.blog-two-area .button-one, .blog-three-area .button-one {margin-top: 20px}
+.best-sell-two .best-sell-link > a:hover, .blog-two-area .blog-link > a:hover, .footer-widget-two .widget-lists li:hover::after, .footer-widget-two .widget-lists li:hover a, .footer-widget-two .footer-widget-list.twitter-news li a, .footer-two #footer-menu a:hover, .blog-two-area .blog-text h4 a:hover, .fun-factor-two .single-fun-factor:hover h5, .fun-factor-two .single-fun-factor:hover h4 {
+    color: #FFAE00;
+}
+/*----------------------------------------*/
+/*  15.7 Home Two Footer
+/*----------------------------------------*/
+.footer-widget-area.footer-widget-two {
+    background: rgba(0, 0, 0, 0) url("../../asset/images/banner/11.jpg") no-repeat scroll center top / cover ;
+    padding-top: 177px;
+}
+.footer-widget-two.footer-widget-area::before {background: rgba(33, 34, 39, 0.8) none repeat scroll 0 0}
+.footer-widget-two.footer-widget-area::after {
+    background: rgba(0, 0, 0, 0) url("../../asset/images/banner/transparent-2.png") no-repeat scroll center top / cover ;
+    height: 85px;
+    top: 0;
+    transform: rotate(180deg);
+}
+.footer-widget-two .footer-widget-list.twitter-news li a:hover, .footer-widget-three .footer-widget-list.twitter-news li a:hover {
+    color: #fff
+}
+.footer-widget-two .footer-link a:hover, .footer-area.footer-two span a:hover {
+    border-color: #ffae00;
+    color: #ffae00;
+}
+/*----------------------------------------*/
+/*  16. Home Three Start
+/*----------------------------------------*/
+/*----------------------------------------*/
+/*  16.1 Home Three Header
+/*----------------------------------------*/
+.header-three .logo-menu-bg {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+}
+.header-three .header-logo-menu {
+    border-bottom: 1px solid #e9e9e9;
+    border-top: 1px solid #e9e9e9;
+}
+.header-three .logo {margin-left: 1px; padding: 13px 0}
+.header-three .mainmenu ul#nav li a {line-height: 78px}
+.button-blue {background: #459DDA none repeat scroll 0 0 !important}
+.button-blue:hover {background: #1A5289 none repeat scroll 0 0 !important}
+.header-three .header-top {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    padding: 5px 0;
+}
+.header-three .currency-menu > ul > li > a, .header-three .language-menu > ul > li > a, .header-three .header-r-cart > li > a, .header-three .login > a, .header-three .account > a, .header-three .login a::after, .header-three .account a::after {
+    color: #ffffff;
+}
+.header-three .currency-menu > ul > li a:hover, .header-three .language-menu > ul > li a:hover, .header-three .header-r-cart li:hover > a, .header-three .login a:hover, .header-three .account a:hover {
+    color: #00C0FF !important
+}
+header.header-three {top: 10px}
+/*----------------------------------------*/
+/*  16.2 Home Three Slider
+/*----------------------------------------*/
+.slider-three .preview-2 .nivo-directionNav a {
+  top: 58.5%;
+}
+/*----------------------------------------*/
+/*  16.2.1 Home Three Slider Text
+/*----------------------------------------*/
+.slider-three .banner-content h1 {
+    font-size: 65px;
+    margin-bottom: 20px;
+    text-shadow: none;
+}
+.slider-three .banner-content h2 span {color: #00c0ff}
+.slider-area.slider-three .text-content {
+    left: 15px;
+    margin-top: 32.5%;
+    max-width: 100%;
+    right: auto;
+}
+/*----------------------------------------*/
+/*  16.2.2 Home Three Slider Icon
+/*----------------------------------------*/
+.slider-three .slider-icon-container {margin-top: 45%}
+.single-icon-three {
+    background: rgba(0, 192, 255, 0.5) none repeat scroll 0 0;
+    border-top: 1px solid #00c0ff;
+    height: 130px;
+    margin: 20px auto 0;
+    position: relative;
+    text-align: center;
+    width: 150px;
+}
+.single-icon-three::after {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: rgba(0, 192, 255, 0.5) rgba(0, 192, 255, 0.5) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
+    border-image: none;
+    border-style: solid;
+    border-width: 5px 76.5px;
+    bottom: -10px;
+    content: "";
+    height: 0;
+    position: absolute;
+    right: 0;
+    width: 0;
+}
+.icon-border-left {
+    background: #00c0ff none repeat scroll 0 0;
+    content: "";
+    height: 129px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 1px;
+}
+.icon-border-left::after {
+    background: #00c0ff none repeat scroll 0 0;
+    bottom: -79px;
+    content: "";
+    height: 150px;
+    left: 75px;
+    position: absolute;
+    transform: rotate(94deg);
+    width: 1.25px;
+}
+.icon-border-right {
+    background: #00c0ff none repeat scroll 0 0;
+    content: "";
+    height: 139px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 1px;
+}
+.single-icon-three > img {margin: 26px auto 20px; position: inherit;}
+.single-icon-three h5 {
+    color: #ffffff;
+    font-family: "Open Sans",sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.single-icon-three.rotate-bg-icon {margin-top: 32px}
+.single-icon-three.rotate-bg-icon {border-bottom: 1px solid #00c0ff; border-top: 0 none;}
+.rotate-bg-icon .icon-border-left::after {
+    bottom: auto;
+    left: 74px;
+    top: -70px;
+    transform: rotate(94deg);
+}
+.rotate-bg-icon .icon-border-right {height: 129px}
+.single-icon-three.rotate-bg-icon::after {
+    left: 1px;
+    top: -10px;
+    transform: rotate(180deg);
+}
+.rotate-bg-icon .icon-border-left {height: 139px; top: -10px}
+.single-icon-three:hover {background: #000000 none repeat scroll 0 0; border-color: #000000}
+.single-icon-three:hover::after {border-color: #000000 #000000 rgba(0, 0, 0, 0) rgba(0, 0, 0, 0)}
+.single-icon-three:hover .icon-border-left, .single-icon-three:hover .icon-border-left::after, .single-icon-three:hover .icon-border-right {background: #000000 none repeat scroll 0 0}
+/*----------------------------------------*/
+/*  16.3 Home Three About Area
+/*----------------------------------------*/
+.about-area.about-area-three {
+    background-image: url("../../asset/images/banner/12.jpg");
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 100px;
+    margin-top: 57px;
+    padding-bottom: 49px;
+    padding-top: 93px;
+    position: relative;
+}
+.about-area.about-area-three::after {
+    background: rgba(0, 0, 0, 0) url("../../asset/images/banner/transparent-3.png") no-repeat scroll center top / cover ;
+    content: "";
+    height: 46px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.section-title.title-three h1 {padding-bottom: 46px}
+.section-title.title-three h1::after {display: none}
+.section-title.title-three h1::before {
+    background: #ffe52d none repeat scroll 0 0;
+    left: 0;
+    margin-left: 0;
+    width: 100%;
+}
+.section-title.title-three .title-border::after {
+    background: rgba(0, 0, 0, 0) url("../../asset/images/icon/title3-icon-1.png") no-repeat scroll 0 0;
+    bottom: 17px;
+    margin-left: -20px;
+    width: 40px;
+}
+.about-area .section-title.title-three .title-border::after {
+    background: rgba(0, 0, 0, 0) url("../../asset/images/icon/title3-icon-1.png") no-repeat scroll 0 0;
+    bottom: -1px;
+}
+.about-area .section-title.title-three  {margin-bottom: 82px}
+.about-area-three .about-text > p {padding: 0 29px}
+/*----------------------------------------*/
+/*  16.4 Home Three Portfolio Area
+/*----------------------------------------*/
+.best-sell-three .best-sell-link > a:hover, .blog-three-area .blog-link > a:hover, .footer-widget-three .widget-lists li:hover::after, .footer-widget-three .widget-lists li:hover a, .footer-widget-three .footer-widget-list.twitter-news li a, .footer-three #footer-menu a:hover {
+    color: #00c0ff;
+}
+/*.portfolio-three .single-portfolio:hover .portfolio-text::after,*/ .team-three .single-member:hover .member-text.effect-bottom::after {
+    background: rgba(0, 192, 255, 0.9) none repeat scroll 0 0;
+}
+/*----------------------------------------*/
+/*  16.5 Home Three Fun Factor Area
+/*----------------------------------------*/
+.fun-factor-area.fun-factor-three::before {background: rgba(0, 0, 0, 0.1) none repeat scroll 0 0}
+.fun-factor-area.fun-factor-three::after {
+    background: rgba(0, 0, 0, 0) url("../../asset/images/banner/transparent-3.png") no-repeat scroll center top / cover ;
+}
+.fun-factor-three .section-title.title-three .title-border::after, .partner-three-area .section-title.title-three .title-border::after {
+    bottom: 0;
+}
+.fun-factor-area.fun-factor-three {
+    background: rgba(0, 0, 0, 0) url("../../asset/images/banner/13.jpg") no-repeat scroll center top / cover ;
+    padding-bottom: 175px;
+}
+.fun-factor-three .single-fun-factor {
+    background: rgba(0, 192, 255, 0.5) none repeat scroll 0 0;
+    border-top: 1px solid #00c0ff;
+}
+.fun-factor-three .single-icon-three {height: 160px; width: 170px;}
+.fun-factor-three .icon-border-left {height: 159px}
+.fun-factor-three .icon-border-left::after {
+    bottom: -89px;
+    height: 170px;
+    left: 85px;
+    width: 1px;
+}
+.fun-factor-three .icon-border-right {height: 169px}
+.fun-factor-three .single-icon-three > h4 {
+    color: #ffffff;
+    font-family: "Open Sans",sans-serif;
+    font-weight: 700;
+    margin-bottom: 7px;
+    text-transform: uppercase;
+}
+.fun-factor-three .single-icon-three h5 {font-size: 16px; font-weight: 300}
+.fun-factor-three .single-icon-three > img {margin: 24px auto 16px}
+.fun-factor-three .section-title {margin-bottom: 60px}
+.fun-factor-three .single-icon-three:hover::after {border-color: #ffffff #ffffff #ffffff #ffffff}
+.fun-factor-three .single-icon-three:hover::after {
+  border-color: #fff #fff #fff #fff;
+  border-width: 5px 85.5px;
+}
+.fun-factor-three .single-icon-three:hover {
+    background: #ffffff none repeat scroll 0 0;
+    border-color: #ffffff;
+}
+.fun-factor-three .single-icon-three:hover .icon-border-left, .fun-factor-three .single-icon-three:hover .icon-border-right, .fun-factor-three .single-icon-three:hover .icon-border-left::after {
+    background: #fff
+}
+.fun-factor-three .single-icon-three:hover h4, .fun-factor-three .single-icon-three:hover h5 {color: #00c0ff}
+/*----------------------------------------*/
+/*  16.6 Home Three Best Sell Area
+/*----------------------------------------*/
+.best-sell-three .carousel-style-one .owl-controls .owl-buttons div:hover::after {border-color: #00C0FF}
+.best-sell-three .carousel-style-one .owl-controls .owl-buttons div:hover i {color: #00C0FF}
+.best-sell-three .best-sell-slider .box-hover > a span {
+    padding: 0 24px 0 10px;
+    width: auto;
+}
+.best-sell-slider .box-hover > a span::after {width: 100%}
+/*----------------------------------------*/
+/*  16.7 Home Three Newsletter Area
+/*----------------------------------------*/
+.newsletter-area.newsletter-three {
+    background: #ecebeb url("../../asset/images/banner/25.jpg") no-repeat scroll center top / cover ;
+    padding-bottom: 143px;
+}
+.newsletter-area.newsletter-three::before {background: rgba(0, 0, 0, 0) none repeat scroll 0 0;}
+.newsletter-area.newsletter-three::after {
+    background: rgba(0, 0, 0, 0) url("../../asset/images/banner/transparent-3-gray.png") no-repeat scroll center top / cover ;
+    height: 47px;
+}
+.newsletter-three .newsletter-content input {
+    background: rgba(255, 255, 255, 0.3) none repeat scroll 0 0;
+    color: #7f8484;
+}
+/*----------------------------------------*/
+/*  16.8 Home Three Blog Area
+/*----------------------------------------*/
+.blog-three-area .blog-text {
+    background: #00c0ff none repeat scroll 0 0;
+    color: #fff
+}
+.blog-three-area .blog-text h4 a {color: #fff}
+.blog-three-area .blog-text h4 a:hover {color: #FFD400}
+.blog-three-area .button-one {background: #ffd400 none repeat scroll 0 0}
+.blog-three-area .blog-link > a {color: #ffffff}
+.blog-three-area .blog-link > a:hover {color: #ffd400}
+.blog-three-area .blog-text {border-color: #ffd400}
+.blog-three-area .button-one:hover {color: #00c0ff}
+.blog-three-area .date-time {top: 0}
+.blog-three-area .date-time .month::after {background: #ffd400 none repeat scroll 0 0}
+.blog-three-area .date-time .month {background: #ffd400 none repeat scroll 0 0}
+.blog-three-area .date-time .date::after {background: #00c0ff none repeat scroll 0 0}
+.blog-three-area .date-time .date {
+    background: #00c0ff none repeat scroll 0 0;
+    color: #ffffff;
+}
+.blog-three-area .blog-text::before {
+    background: #00c0ff none repeat scroll 0 0;
+    content: "";
+    height: 26px;
+    left: -13px;
+    margin-top: -13px;
+    position: absolute;
+    top: 50%;
+    transform: rotate(45deg);
+    width: 26px;
+}
+/*----------------------------------------*/
+/*  16.9 Home Three Footer
+/*----------------------------------------*/
+.footer-area.footer-three span a:hover, .footer-widget-three .footer-link a:hover {
+    border-color: #00c0ff;
+    color: #00c0ff;
+}
+.footer-widget-area.footer-widget-three {
+    background: rgba(0, 0, 0, 0) url("../../asset/images/banner/14.jpg") no-repeat scroll center top / cover ;
+    padding-top: 144px;
+}
+.footer-widget-area.footer-widget-three::before {background: rgba(33, 34, 39, 0.8) none repeat scroll 0 0;}
+.footer-widget-area.footer-widget-three::after {
+    background: rgba(0, 0, 0, 0) url("../../asset/images/banner/transparent-3.png") no-repeat scroll center top / cover ;
+    height: 45px;
+}

@@ -1,0 +1,17 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase / # Pastikan ini mengarah ke root web Anda. Jika CodeIgniter di subfolder, sesuaikan (misal: /namasubfolder/)
+
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^(.*)$ index.php/$1 [L]
+</IfModule>
+
+# Ini adalah contoh untuk mencegah akses langsung ke folder aplikasi.
+# Anda bisa menambahkan ini jika Anda tidak ingin orang mengakses langsung guest/app_custom
+# Atau jika Anda punya folder lain yang ingin dilindungi.
+# Contoh untuk folder guest/app_custom:
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteRule ^(guest/app_custom|sys_custom) - [F,L] # Menolak akses ke guest/app_custom dan sys_custom
+</IfModule>
